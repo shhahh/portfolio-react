@@ -1,0 +1,246 @@
+.fixed-bg-section {
+  min-height: 250px;
+
+  background-image: url("../assets/bg-fixed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+   
+  position: relative;
+  z-index: 1;
+}
+
+
+.fixed-bg-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.fixed-content {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  align-items: center; 
+  text-align: center;
+  text-align: center;  
+  z-index: 2; 
+}
+
+.fixed-content h2 {
+ font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-top: 50px;
+  text-align:end;      /* heading center */
+}
+
+.fixed-content p {
+   max-width:px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #dddddd;
+}
+
+@media (max-width: 768px) {
+  .fixed-bg-section {
+    background-attachment: hidden;
+  }
+  .fixed-bg-section h2{
+    font-size: 30px;
+    text-align: start;
+    margin-left: 15px;
+  }
+  .fixed-bg-section p{
+    font-size: 16px;
+    text-align: start;
+    margin-left:15px;
+    margin-right: 2px;
+    padding-bottom: 30px;
+  }
+}
+
+
+.home-white-section {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.home-white-section h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 60px;
+  color: var(--black-color);
+}
+
+.white-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.white-card {
+  border: 1px solid #ffffff;
+  padding: 30px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.white-card:hover {
+   border-color: var(--primary-color);
+   transform: translateY(-6px);
+   box-shadow: 0px 10px 30px rgba(21, 10, 90, 0.15);
+   border-color: #0f8e18;
+}
+
+.white-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--primary-color);
+}
+
+.white-card p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .white-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-white-section {
+    padding: 70px 0;
+  }
+
+  .home-white-section h2{
+      font-size: 34px;
+      text-align: center;
+      
+  }
+}
+
+
+.impact-section {
+  padding: 90px 0;
+  background-color: #f9f9f9;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.impact-box {
+  padding: 30px 20px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+   opacity:1;
+     transform: translateY(10px);
+}
+
+.impact-section h2 {
+ font-size: 36px;
+  color: #0f0f0f;
+  margin-bottom: 50px;
+  margin-top: px;
+  text-align:center;      /* heading center */
+}
+.impact-box.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.impact-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 30px rgba(21, 10, 90, 0.15);
+}
+
+.impact-box h3 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.impact-box p {
+  font-size: 15px;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .impact-box h3 {
+    font-size: 32px;
+  }
+}
+
+
+.process-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.process-section h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 70px;
+  color: var(--black-color);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.process-step {
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 30px rgba(21, 10, 90, 0.12);
+}
+
+.step-number {
+  display: block;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.process-step h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #444;
+}
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-section {
+    padding: 70px 0;
+  }
+}

@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #150a5a;
+  --black-color: #111111;
+  --white-color: #ffffff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  line-height: 1.6;
+    /* overflow-x: hidden;
+  overflow-y: auto; */
+  overflow-x: hidden;
+}
+
+
+.page {
+  min-height: 100vh;
+  padding: 120px 80px;
+}
+
+.page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.page p,
+.page li {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .page {
+    padding: 100px 20px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

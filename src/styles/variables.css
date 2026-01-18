@@ -1,0 +1,70 @@
+:root {
+    /* Colors - Design 2.0 (Deep Space & Digital Glass) */
+    --color-primary: #8b5cf6;
+    /* Violet 500 */
+    --color-primary-hover: #7c3aed;
+    /* Violet 600 */
+    --color-secondary: #ec4899;
+    /* Pink 500 */
+    --color-accent: #f59e0b;
+    /* Amber 500 */
+
+    --color-bg: #030014;
+    /* Deep Void Black */
+    --color-bg-light: #0f0728;
+    /* Dark Violet Black */
+    --color-bg-lighter: #1e1b4b;
+    /* Indigo 950 */
+    --color-border: #2e1065;
+    /* Dark Violet Border */
+
+    --color-text: #f8fafc;
+    /* Slate 50 */
+    --color-text-muted: #94a3b8;
+    /* Slate 400 */
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #db2777 100%);
+    --gradient-text: linear-gradient(to right, #c084fc, #e879f9, #22d3ee);
+    --gradient-glow: radial-gradient(circle, rgba(124, 58, 237, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+
+    /* Borders */
+    --radius-sm: 0.5rem;
+    --radius-md: 1rem;
+    --radius-lg: 2rem;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    --shadow-neon: 0 0 20px rgba(139, 92, 246, 0.5);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-bg-lighter);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}

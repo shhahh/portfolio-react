@@ -1,0 +1,40 @@
+.services h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.service-card {
+  border: 1px solid #e5e5e5;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 26px;
+}
+
+.service-card:hover {
+      border-color: var(--primary-color);
+  transform: translateY(-6px);
+  border-color: #111;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
