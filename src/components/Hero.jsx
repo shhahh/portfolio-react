@@ -11,17 +11,17 @@ const Hero = () => {
                 <div className="hero-text animate-fade-in">
                     <span className="subtitle">Hello, I'm</span>
                     <h1 className="title">Shah <span className="highlight">.</span></h1>
-                    <h2 className="role">
+                    <h1 className="role">
                         Full Stack Developer <br />
                         <span className="role-highlight">Laravel & React Expert</span>
-                    </h2>
+                    </h1>
                     <p className="description">
                         I build industry-level web applications that are fast, secure, and visually stunning.
                         Specializing in the PHP ecosystem and modern JavaScript frameworks.
                     </p>
 
                     <div className="cta-group">
-                        <a href="#projects" className="btn btn-primary">View My Work</a>
+                        <a href="#projects" className="btn btn-primary py-4 my-4">View My Work</a>
                         <a href="#contact" className="btn btn-outline">Contact Me</a>
                     </div>
 

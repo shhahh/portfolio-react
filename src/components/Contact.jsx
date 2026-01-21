@@ -16,7 +16,8 @@ const Contact = () => {
                             <Mail className="info-icon" size={32} />
                             <div>
                                 <h3>Email Me</h3>
-                                <p>shhahhraxa110@gmail.com</p>
+                                <a href="mailto:shhahhraxa110@gmail.com" className="contact-link">
+                                shhahhraxa110@gmail.com</a>
                             </div>
                         </div>
 
@@ -24,7 +25,8 @@ const Contact = () => {
                             <Phone className="info-icon" size={32} />
                             <div>
                                 <h3>WhatsApp</h3>
-                                <p>+918630628812</p>
+                                <a href="https://wa.me/918630628812" target="_blank" rel="noopener noreferrer" className="contact-link text-white">
+                                +918630628812</a>
                             </div>
                         </div>
 
@@ -32,7 +34,12 @@ const Contact = () => {
                             <MapPin className="info-icon" size={32} />
                             <div>
                                 <h3>Location</h3>
-                                <p>Remote / Worldwide</p>
+                                 <a 
+                            href="https://www.google.com/maps/search/?api=1&query=Remote+Worldwide" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="contact-link">
+                            Remote / Worldwide</a>                      
                             </div>
                         </div>
                     </div>

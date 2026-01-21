@@ -12,6 +12,7 @@
 .info-card {
   display: flex;
   align-items: center;
+  color:white;
   gap: 1.5rem;
   background: var(--color-bg);
   padding: 1.5rem;
