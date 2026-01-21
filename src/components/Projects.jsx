@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import '../styles/Projects.css';
+import '../styles/projects.css';
 import DocuchatImg from "../assets/Docuchat.png";
 
 const Projects = () => {
