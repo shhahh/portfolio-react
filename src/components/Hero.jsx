@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'; // fix import
+
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import profileImg from '../assets/profile.png';
-import '../styles/Hero.css';
+import '../styles/hero.css';
 
 const Hero = () => {
     return (

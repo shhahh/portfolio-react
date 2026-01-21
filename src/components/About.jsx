@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';   // fix import
 import { Calendar, Briefcase } from 'lucide-react';
-import '../styles/About.css';
+import '../styles/about.css';
 
 const About = () => {
     return (

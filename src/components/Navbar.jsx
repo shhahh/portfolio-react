@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';  // fix navbar import
+
 import { Link } from 'react-router-dom';
 import { Menu, X, Code2 } from 'lucide-react';
-import '../styles/Navbar.css';
-
+import '../styles/navbar.css';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

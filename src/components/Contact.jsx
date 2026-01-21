@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react';  // fix import
+
 import { Mail, MapPin, Phone } from 'lucide-react';
-import '../styles/Contact.css';
+import '../styles/contact.css';
 
 const Contact = () => {
     return (

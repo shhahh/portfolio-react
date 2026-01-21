@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; // fix import
+
 
 const Footer = () => {
   return (
