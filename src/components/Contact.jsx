@@ -25,10 +25,17 @@ const Contact = () => {
                             <Phone className="info-icon" size={32} />
                             <div>
                                 <h3>WhatsApp</h3>
-                                <a href="https://wa.me/918630628812" target="_blank" rel="noopener noreferrer" className="contact-link text-white">
-                                +918630628812</a>
+                                <a 
+                                href="https://api.whatsapp.com/send?phone=918630628812"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="contact-link"
+                                >
+                                +91 8630628812
+                                </a>
                             </div>
-                        </div>
+                            </div>
+
 
                         <div className="info-card">
                             <MapPin className="info-icon" size={32} />

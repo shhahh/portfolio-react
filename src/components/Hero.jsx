@@ -21,7 +21,7 @@ const Hero = () => {
                     </p>
 
                     <div className="cta-group">
-                        <a href="#projects" className="btn btn-primary py-4 my-4">View My Work</a>
+                        <a href="#projects" className="btn btn-primary">View My Work</a>
                         <a href="#contact" className="btn btn-outline">Contact Me</a>
                     </div>
 

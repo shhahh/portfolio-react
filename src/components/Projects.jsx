@@ -3,9 +3,29 @@ import { ExternalLink, Github } from 'lucide-react';
 import '../styles/projects.css';
 import DocuchatImg from "../assets/Docuchat.png";
 import hoobankImg from "../assets/hoobank.png"
+import FirawebImg from "../assets/Firaweb.png"
 const Projects = () => {
     const projects = [
+
+         {           
+            description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
+            title: "Modern Bank App",
+            tech: ["React", "Node.js", "MongoDB", "Socket.io"],
+            image: hoobankImg,
+            github: "https://github.com/shhahh/modern-bank-app-improved",
+            demo: "https://modern-bank-app-improved.vercel.app/"
+        },
+       
         {
+            title: "Firaweb Web Agency",
+            description: "We Build Modern Logical and Rich Websites. We craft digital experiences that look sharp, feel intuitive, and perform flawlessly across every platform.",
+            tech: ["Wordpress", "PHP", "Mapbox API"],
+            image: FirawebImg,
+            github: "https://github.com/shhahh/Firaweb",
+            demo: "https://shah-firaweb.vercel.app/"
+        },
+
+         {
             title: "DocuChat",
             description: "A full-featured online store built with Laravel and React. Features include stripe payment, admin dashboard, and inventory management.",
             tech: ["Laravel", "React", "MySQL", "Stripe"],
@@ -13,22 +33,6 @@ const Projects = () => {
             github: "https://github.com/shhahh/Laravel-Offline-RAG-DocuChat",
             demo: "https://example.com"
         },
-        {
-            title: "Modern Bank App",
-            description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
-            tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-            image: hoobankImg,
-            github: "https://github.com/shhahh/modern-bank-app-improved",
-            demo: "https://modern-bank-app-improved.vercel.app/"
-        },
-        {
-            title: "Real Estate Portal",
-            description: "Property listing website with advanced search, map integration, and automated email notifications.",
-            tech: ["Wordpress", "PHP", "Mapbox API"],
-            image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-            github: "https://github.com",
-            demo: "https://example.com"
-        }
     ];
 
     return (
