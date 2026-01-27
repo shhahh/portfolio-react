@@ -1,9 +1,9 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import '../styles/projects.css';
-import DocuchatImg from "../assets/Docuchat.png";
 import hoobankImg from "../assets/hoobank.png"
 import FirawebImg from "../assets/Firaweb.png"
+import shopingstoreImg from "../assets/shopingstore.png"
 const Projects = () => {
     const projects = [
 
@@ -19,19 +19,19 @@ const Projects = () => {
         {
             title: "Firaweb Web Agency",
             description: "We Build Modern Logical and Rich Websites. We craft digital experiences that look sharp, feel intuitive, and perform flawlessly across every platform.",
-            tech: ["Wordpress", "PHP", "Mapbox API"],
+            tech: ["javascript 95.9%", "Html 0.6%", "css 3.5%"],
             image: FirawebImg,
             github: "https://github.com/shhahh/Firaweb",
             demo: "https://shah-firaweb.vercel.app/"
         },
 
-         {
-            title: "DocuChat",
-            description: "A full-featured online store built with Laravel and React. Features include stripe payment, admin dashboard, and inventory management.",
-            tech: ["Laravel", "React", "MySQL", "Stripe"],
-             image: DocuchatImg,
-            github: "https://github.com/shhahh/Laravel-Offline-RAG-DocuChat",
-            demo: "https://example.com"
+       {
+            title: "TS-Shopping Hub", // Ek catchy naam
+            description: "A high-performance E-commerce storefront built with a mobile-first approach. Features a dynamic shopping cart, complex product filtering, and a sleek responsive grid layout. Engineered for type-safety and seamless user interactions.",
+            tech: ["React.js", "TypeScript 95.9 %", "Styled-Components", "Context API"],
+            image: shopingstoreImg,
+            github: "https://github.com/shhahh/shoping-store",
+            demo: "https://shoping-store-delta.vercel.app/"
         },
     ];
 
