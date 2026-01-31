@@ -4,8 +4,20 @@ import '../styles/projects.css';
 import hoobankImg from "../assets/hoobank.png"
 import FirawebImg from "../assets/Firaweb.png"
 import shopingstoreImg from "../assets/shopingstore.png"
+import EB5GlobalImg from "../assets/eb-5sc.png"
+import sgfoodImg from "../assets/sgfood.png"
+
 const Projects = () => {
     const projects = [
+        
+        {
+            title: "EB-5 Global Capital", 
+            description: "A responsive homepage clone of a WordPress website built using React.js and Vite. This project focuses on accurate UI replication, component-based structure, and modern frontend development practices.",
+            tech: ["React.js", "VITE", "Styled-Components", "Context API"],
+            image: EB5GlobalImg,
+            github: "https://github.com/shhahh/EB-5-clone",
+            demo: "https://eb-5-clone.vercel.app/"
+        },
 
          {           
             description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
@@ -26,13 +38,25 @@ const Projects = () => {
         },
 
        {
-            title: "TS-Shopping Hub", // Ek catchy naam
+            title: "TS-Shopping Hub", 
             description: "A high-performance E-commerce storefront built with a mobile-first approach. Features a dynamic shopping cart, complex product filtering, and a sleek responsive grid layout. Engineered for type-safety and seamless user interactions.",
             tech: ["React.js", "TypeScript 95.9 %", "Styled-Components", "Context API"],
             image: shopingstoreImg,
             github: "https://github.com/shhahh/shoping-store",
             demo: "https://shoping-store-delta.vercel.app/"
         },
+
+        {
+            title: "Sg-food for Honor", 
+            description: "This project was created to improve the SG-FOOD website by redesigning and modernizing its homepage UI. The layout was rebuilt using React.js and Vite, focusing on responsiveness, performance, and clean structure. ",
+            tech: ["React.js", "VITE", "Styled-Components", "Antigravity – Gemini model", "Context API"],
+            image: sgfoodImg,
+            github: "https://github.com/shhahh/Sgfood-theChallenge",
+            demo: "https://sgfood-the-challenge.vercel.app/"
+        },
+        
+
+         
     ];
 
     return (
