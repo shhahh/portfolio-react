@@ -6,6 +6,7 @@ import FirawebImg from "../assets/Firaweb.png"
 import shopingstoreImg from "../assets/shopingstore.png"
 import EB5GlobalImg from "../assets/eb-5sc.png"
 import sgfoodImg from "../assets/sgfood.png"
+import hotelimImg from "../assets/hotelim.png"
 
 const Projects = () => {
     const projects = [
@@ -17,6 +18,15 @@ const Projects = () => {
             image: EB5GlobalImg,
             github: "https://github.com/shhahh/EB-5-clone",
             demo: "https://eb-5-clone.vercel.app/"
+        },
+
+        {
+            title: "SSNG Hotels - Premium Stay", 
+            description: "A luxury-focused Hotel Management System overhauled from a basic functional site to an elite digital experience. Features include cinematic visual storytelling, optimized room-booking logic, and a high-end responsive UI with smooth navigation. ",
+            tech: ["React", "Tailwind CSS", "Firebase", "Context API"],
+            image: hotelimImg,
+            github: "https://github.com/shhahh/Hotel-management-system-improve",
+            demo: "https://hotel-management-system-improve.vercel.app/"
         },
 
          {           
@@ -54,9 +64,9 @@ const Projects = () => {
             github: "https://github.com/shhahh/Sgfood-theChallenge",
             demo: "https://sgfood-the-challenge.vercel.app/"
         },
-        
 
-         
+        
+          
     ];
 
     return (
