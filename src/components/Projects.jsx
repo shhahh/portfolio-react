@@ -7,6 +7,7 @@ import shopingstoreImg from "../assets/shopingstore.png"
 import EB5GlobalImg from "../assets/eb-5sc.png"
 import sgfoodImg from "../assets/sgfood.png"
 import hotelimImg from "../assets/hotelim.png"
+import jaggeryImg from "../assets/jaggery.png"
 
 const Projects = () => {
     const projects = [
@@ -65,6 +66,32 @@ const Projects = () => {
             demo: "https://sgfood-the-challenge.vercel.app/"
         },
 
+        {
+        title: "Nectar Earth: Jaggery", 
+        description: "A high-end, premium brand experience built for an organic jaggery atelier. Its features fluid scroll animations, a mobile-first responsive architecture, and a modern 'Glassmorphic' design language.",
+        tech: ["React.js", "Vite", "Tailwind CSS v4", "Framer Motion", "Lucide React"],
+        image: jaggeryImg, // Make sure you import your screenshot at the top
+        github: "https://github.com/shhahh/Jaggery-sweetness",
+        demo: "https://jaggery-sweetness.vercel.app/"
+       },
+     
+       {
+            title: "EB-5 Global Capital", 
+            description: "A responsive homepage clone of a WordPress website built using React.js and Vite. This project focuses on accurate UI replication, component-based structure, and modern frontend development practices.",
+            tech: ["React.js", "VITE", "Styled-Components", "Context API"],
+            image: EB5GlobalImg,
+            github: "https://github.com/shhahh/EB-5-clone",
+            demo: "https://eb-5-clone.vercel.app/"
+        },
+
+        {
+            title: "SSNG Hotels - Premium Stay", 
+            description: "A luxury-focused Hotel Management System overhauled from a basic functional site to an elite digital experience. Features include cinematic visual storytelling, optimized room-booking logic, and a high-end responsive UI with smooth navigation. ",
+            tech: ["React", "Tailwind CSS", "Firebase", "Context API"],
+            image: hotelimImg,
+            github: "https://github.com/shhahh/Hotel-management-system-improve",
+            demo: "https://hotel-management-system-improve.vercel.app/"
+        },
         
           
     ];

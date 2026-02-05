@@ -11,9 +11,9 @@ const Footer = () => {
       color: 'var(--color-text-muted)'
     }}>
       <div className="container">
-        <p>&copy; {new Date().getFullYear()} Shah. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Shah. All rights reserved</p>
         <p style={{ marginTop: '0.5rem', fontSize: '0.9rem' }}>
-          Built with <span style={{ color: 'var(--color-primary)' }}>React</span> & <span style={{ color: 'var(--color-secondary)' }}>laravel</span> expertise.
+          Built with <span style={{ color: 'var(--color-primary)' }}>React</span> & <span style={{ color: 'var(--color-secondary)' }}>JS</span> Vite expertise
         </p>
       </div>
     </footer>
