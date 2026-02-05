@@ -4,13 +4,14 @@ import '../styles/skills.css';
 const Skills = () => {
     const skillCategories = [
         {
+            title: "Frontend",
+            skills: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Vite" ,"TypeScript"]
+        },
+        {
             title: "Backend & Core",
             skills: ["Laravel", "PHP", "Node.js", "MySQL", "REST APIs"]
         },
-        {
-            title: "Frontend",
-            skills: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3", "Vite"]
-        },
+        
         {
             title: "CMS & Tools",
             skills: ["WordPress", "Git/GitHub", "Composer", "npm", "Docker"]

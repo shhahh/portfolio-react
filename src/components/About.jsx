@@ -13,7 +13,7 @@ const About = () => {
                         <h3 className="about-subtitle">Building digital products with passion.</h3>
                         <p>
                             I'm Shah, a dedicated Web Developer with a strong foundation in both frontend and backend technologies.
-                            My journey started with WordPress and evolved into building complex applications using Laravel and React.
+                            My journey started with Html and Css ,WordPress and evolved into building complex applications using React.
                         </p>
                         <p>
                             I believe in writing clean, maintainable code and solving real-world problems through technology.
@@ -22,15 +22,15 @@ const About = () => {
 
                         <div className="stats-grid">
                             <div className="stat-item">
-                                <span className="stat-number">2+</span>
+                                <span className="stat-number">1.5+</span>
                                 <span className="stat-label">Years Experience</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">50+</span>
+                                <span className="stat-number">23+</span>
                                 <span className="stat-label">Projects Completed</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">42+</span>
+                                <span className="stat-number">22+</span>
                                 <span className="stat-label">Happy Clients</span>
                             </div>
                         </div>
@@ -44,12 +44,12 @@ const About = () => {
                             <div className="timeline-content">
                                 <div className="timeline-header">
                                     <Briefcase size={18} />
-                                    <h4>Senior Web Developer</h4>
+                                    <h4>Web Developer</h4>
                                 </div>
                                 <div className="timeline-date">
                                     <Calendar size={14} /> 2026 - Present
                                 </div>
-                                <p>Leading development of full-stack applications using Laravel & React.</p>
+                                <p>Leading development of full-stack applications using React.</p>
                             </div>
                         </div>
 
@@ -61,9 +61,9 @@ const About = () => {
                                     <h4>Freelance Developer</h4>
                                 </div>
                                 <div className="timeline-date">
-                                    <Calendar size={14} /> 2023 - 2026
+                                    <Calendar size={14} /> 2024 - 2026
                                 </div>
-                                <p>Delivered 30+ projects for international clients on Upwork/Fiverr.</p>
+                                <p>Delivered 5+ projects for international clients</p>
                             </div>
                         </div>
                     </div>

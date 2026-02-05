@@ -13,11 +13,10 @@ const Hero = () => {
                     <h1 className="title">Shah <span className="highlight">.</span></h1>
                     <h1 className="role">
                         Full Stack Developer <br />
-                        <span className="role-highlight">Laravel & React Expert</span>
+                        <span className="role-highlight">React Expert</span>
                     </h1>
                     <p className="description">
-                        I build industry-level web applications that are fast, secure, and visually stunning.
-                        Specializing in the PHP ecosystem and modern JavaScript frameworks.
+                        I build industry-level web applications that are fast, secure, and visually stunning. Specializing in React.js, modern JavaScript frameworks, and scalable front-end architectures.
                     </p>
 
                     <div className="cta-group">
