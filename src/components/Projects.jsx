@@ -29,15 +29,6 @@ const Projects = () => {
             github: "https://github.com/shhahh/Hotel-management-system-improve",
             demo: "https://hotel-management-system-improve.vercel.app/"
         },
-
-         {           
-            description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
-            title: "Modern Bank App",
-            tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-            image: hoobankImg,
-            github: "https://github.com/shhahh/modern-bank-app-improved",
-            demo: "https://modern-bank-app-improved.vercel.app/"
-        },
        
         {
             title: "Firaweb Web Agency",
@@ -46,15 +37,6 @@ const Projects = () => {
             image: FirawebImg,
             github: "https://github.com/shhahh/Firaweb",
             demo: "https://shah-firaweb.vercel.app/"
-        },
-
-       {
-            title: "TS-Shopping Hub", 
-            description: "A high-performance E-commerce storefront built with a mobile-first approach. Features a dynamic shopping cart, complex product filtering, and a sleek responsive grid layout. Engineered for type-safety and seamless user interactions.",
-            tech: ["React.js", "TypeScript 95.9 %", "Styled-Components", "Context API"],
-            image: shopingstoreImg,
-            github: "https://github.com/shhahh/shoping-store",
-            demo: "https://shoping-store-delta.vercel.app/"
         },
 
         {
@@ -74,6 +56,24 @@ const Projects = () => {
         github: "https://github.com/shhahh/Jaggery-sweetness",
         demo: "https://jaggery-sweetness.vercel.app/"
        },
+
+         {           
+            description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
+            title: "Modern Bank App",
+            tech: ["React", "Node.js", "MongoDB", "Socket.io"],
+            image: hoobankImg,
+            github: "https://github.com/shhahh/modern-bank-app-improved",
+            demo: "https://modern-bank-app-improved.vercel.app/"
+        },
+
+       {
+            title: "TS-Shopping Hub", 
+            description: "A high-performance E-commerce storefront built with a mobile-first approach. Features a dynamic shopping cart, complex product filtering, and a sleek responsive grid layout. Engineered for type-safety and seamless user interactions.",
+            tech: ["React.js", "TypeScript 95.9 %", "Styled-Components", "Context API"],
+            image: shopingstoreImg,
+            github: "https://github.com/shhahh/shoping-store",
+            demo: "https://shoping-store-delta.vercel.app/"
+        },
      
        {
             title: "EB-5 Global Capital", 
