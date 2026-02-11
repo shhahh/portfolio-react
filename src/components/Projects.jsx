@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import '../styles/projects.css';
+import VastraDashboardImg from "../assets/dashbaord.png"
 import hoobankImg from "../assets/hoobank.png"
 import FirawebImg from "../assets/Firaweb.png"
 import shopingstoreImg from "../assets/shopingstore.png"
@@ -11,6 +12,16 @@ import jaggeryImg from "../assets/jaggery.png"
 
 const Projects = () => {
     const projects = [
+
+         {
+                title: "Vastra - Premium Showroom Dashboard", 
+                description: "A complete inventory management system designed for showroom owners. It includes real-time search, category filtering, and full product management features (Add/Edit/Delete). I have also implemented Base64 image compression to prevent storage overload from mobile photos, and data is saved using LocalStorage for persistence.",
+                tech: ["React.js", "Tailwind CSS", "Framer Motion", "Lucide React", "Vite"],
+                image: VastraDashboardImg, 
+                github: "https://github.com/shhahh/Dashboard-showroom",
+                demo: "https://dashboard-showroom.vercel.app/"
+            },
+
         
         {
             title: "EB-5 Global Capital", 
@@ -21,6 +32,7 @@ const Projects = () => {
             demo: "https://eb-5-clone.vercel.app/"
         },
 
+         
         {
             title: "SSNG Hotels - Premium Stay", 
             description: "A luxury-focused Hotel Management System overhauled from a basic functional site to an elite digital experience. Features include cinematic visual storytelling, optimized room-booking logic, and a high-end responsive UI with smooth navigation. ",
@@ -82,18 +94,7 @@ const Projects = () => {
             image: EB5GlobalImg,
             github: "https://github.com/shhahh/EB-5-clone",
             demo: "https://eb-5-clone.vercel.app/"
-        },
-
-        {
-            title: "SSNG Hotels - Premium Stay", 
-            description: "A luxury-focused Hotel Management System overhauled from a basic functional site to an elite digital experience. Features include cinematic visual storytelling, optimized room-booking logic, and a high-end responsive UI with smooth navigation. ",
-            tech: ["React", "Tailwind CSS", "Firebase", "Context API"],
-            image: hotelimImg,
-            github: "https://github.com/shhahh/Hotel-management-system-improve",
-            demo: "https://hotel-management-system-improve.vercel.app/"
-        },
-        
-          
+        },         
     ];
 
     return (
