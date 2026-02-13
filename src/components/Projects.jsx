@@ -2,6 +2,7 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import '../styles/projects.css';
 import VastraDashboardImg from "../assets/dashbaord.png"
+import ArthaDashboardImg from "../assets/finance.png"
 import hoobankImg from "../assets/hoobank.png"
 import FirawebImg from "../assets/Firaweb.png"
 import shopingstoreImg from "../assets/shopingstore.png"
@@ -20,6 +21,15 @@ const Projects = () => {
                 image: VastraDashboardImg, 
                 github: "https://github.com/shhahh/Dashboard-showroom",
                 demo: "https://dashboard-showroom.vercel.app/"
+            },
+
+            {
+                title: "Artha - Advanced Wealth & Finance Suite", 
+                description: "A high-end financial management dashboard featuring real-time data visualization and deep analytics. Key features include a 'Financial Pulse' logic to track savings rates, interactive Performance Charts using Recharts, and smart transaction management with advanced searching and filtering. Built with a premium Glassmorphism UI, custom React hooks for optimized state management, and LocalStorage for seamless data persistence.",
+                tech: ["React.js", "TypeScript", "Tailwind CSS", "Recharts", "Framer Motion", "Lucide React", "Vite"],
+                image: ArthaDashboardImg, // Isse assets mein import karke yahan use kar lena
+                github: "https://github.com/shhahh/Financial-Overview", // Apna repository link check kar lena
+                demo: "https://financial-overview-eight.vercel.app/"
             },
 
         
@@ -86,15 +96,6 @@ const Projects = () => {
             github: "https://github.com/shhahh/shoping-store",
             demo: "https://shoping-store-delta.vercel.app/"
         },
-     
-       {
-            title: "EB-5 Global Capital", 
-            description: "A responsive homepage clone of a WordPress website built using React.js and Vite. This project focuses on accurate UI replication, component-based structure, and modern frontend development practices.",
-            tech: ["React.js", "VITE", "Styled-Components", "Context API"],
-            image: EB5GlobalImg,
-            github: "https://github.com/shhahh/EB-5-clone",
-            demo: "https://eb-5-clone.vercel.app/"
-        },         
     ];
 
     return (
