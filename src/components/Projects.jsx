@@ -1,6 +1,8 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import '../styles/projects.css';
+import velisseLuxuryImg from "../assets/velisseLuxuryImg.png"
+import luxeCosmeticsImg from "../assets/luxe.png"
 import VastraDashboardImg from "../assets/dashbaord.png"
 import ArthaDashboardImg from "../assets/finance.png"
 import hoobankImg from "../assets/hoobank.png"
@@ -13,6 +15,24 @@ import jaggeryImg from "../assets/jaggery.png"
 
 const Projects = () => {
     const projects = [
+
+        {
+                title: "Velisse Luxury",
+                description: "A beautifully crafted luxury fashion e-commerce experience designed with elegance and performance in mind. Features a modern UI, smooth product browsing, refined typography, and a fully responsive layout. Built with a focus on clean architecture, scalability, and seamless user interaction for a premium shopping experience.",
+                tech: ["React.js", "TypeScript", "Next.js", "Styled-Components", "Responsive Design"],
+                image: velisseLuxuryImg,
+                github: "https://github.com/shhahh",
+                demo: "https://velisse-luxury.vercel.app/"
+            },
+
+            {
+                title: "Luxe Cosmetics Store",
+                description: "A modern beauty and cosmetics e-commerce platform designed with a clean aesthetic and smooth user experience. Features responsive product showcases, elegant UI components, and optimized performance for seamless browsing across devices. Built with a scalable architecture and a focus on maintainable, type-safe code.",
+                tech: ["React.js", "TypeScript", "Next.js", "Styled-Components", "Responsive Design"],
+                image: luxeCosmeticsImg,
+                github: "https://github.com/shhahh",
+                demo: "https://luxe-cosmetics-store.vercel.app/"
+            },
 
          {
                 title: "Vastra - Premium Showroom Dashboard", 
@@ -79,6 +99,8 @@ const Projects = () => {
         demo: "https://jaggery-sweetness.vercel.app/"
        },
 
+
+       
          {           
             description: "This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.",
             title: "Modern Bank App",
